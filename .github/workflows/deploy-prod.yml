@@ -8,6 +8,10 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    # 여기에 환경 변수를 추가하여 모든 Step에 적용합니다.
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+    
     steps:
       - name: Checkout code
         uses: actions/checkout@v4

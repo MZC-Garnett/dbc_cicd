@@ -26,7 +26,3 @@ jobs:
           # 환경 변수명을 아래와 같이 수정해 보세요.
           DATABRICKS_CLIENT_ID: ${{ secrets.DATABRICKS_CLIENT_ID }}
           DATABRICKS_CLIENT_SECRET: ${{ secrets.DATABRICKS_CLIENT_SECRET }}
-          # 만약 위 설정으로 안 된다면 아래의 별칭(Alias)들도 함께 넣어보세요.
-          ARM_CLIENT_ID: ${{ secrets.DATABRICKS_CLIENT_ID }}
-          ARM_CLIENT_SECRET: ${{ secrets.DATABRICKS_CLIENT_SECRET }}
-          DATABRICKS_AUTH_TYPE: oauth-m2m

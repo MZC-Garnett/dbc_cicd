@@ -4,11 +4,11 @@ bundle:
 targets:
   dev:
     workspace:
-      host: https://megazone-adc-prd-workspace.cloud.databricks.com/
+      host: https://megazone-adc-prd-workspace.cloud.databricks.com
     # 개발 환경에서는 현재 로그인한 사용자 기반으로 배포되도록 설정 가능
 
   prod:
     workspace:
-      host: https://megazone-adc-prd-workspace.cloud.databricks.com/
+      host: https://megazone-adc-prd-workspace.cloud.databricks.com
       auth_type: oauth-m2m
       # CI/CD에서 사용할 Service Principal은 환경변수로 주입됨
